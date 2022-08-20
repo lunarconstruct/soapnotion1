@@ -1,21 +1,67 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+.responsive {
+  width: 100%;
+  height: auto;
+}
+</style>
+</head>
 <body>
 
-
-<p id="demo"></p>
+<img src="" id="imageBox" class="responsive"></img>
 
 <script>
-let x = Math.floor((Math.random() * 78) + 1);
-document.getElementById("demo").innerHTML = x;
+let x = Math.floor((Math.random() * 22) + 1);
 if (x == 1) {
-  card = /cards/magician.jpg;
-} else {
-  card = /cards/emperor.jpg;
+  document.getElementById('imageBox').src = "magician.jpg";
+} else if (x == 2){
+  document.getElementById('imageBox').src = "emperor.jpg";
+} else if (x == 3){
+  document.getElementById('imageBox').src = "chariot.jpg";
+} else if (x == 4){
+  document.getElementById('imageBox').src = "death.jpg";
+} else if (x == 5){
+  document.getElementById('imageBox').src = "devil.jpg";
+} else if (x == 6){
+  document.getElementById('imageBox').src = "empress.jpg";
+} else if (x == 7){
+  document.getElementById('imageBox').src = "fool.jpg";
+} else if (x == 8){
+  document.getElementById('imageBox').src = "hangedman.jpg";
+} else if (x == 9){
+  document.getElementById('imageBox').src = "hermit.jpg";
+} else if (x == 10){
+  document.getElementById('imageBox').src = "hierophant.jpg";
+} else if (x == 11){
+  document.getElementById('imageBox').src = "highpriestess.jpg";
+} else if (x == 12){
+  document.getElementById('imageBox').src = "judgement.jpg";
+} else if (x == 13){
+  document.getElementById('imageBox').src = "justice.jpg";
+} else if (x == 14){
+  document.getElementById('imageBox').src = "lovers.jpg";
+} else if (x == 15){
+  document.getElementById('imageBox').src = "moon.jpg";
+} else if (x == 16){
+  document.getElementById('imageBox').src = "star.jpg";
+} else if (x == 17){
+  document.getElementById('imageBox').src = "strength.jpg";
+} else if (x == 18){
+  document.getElementById('imageBox').src = "sun.jpg";
+} else if (x == 19){
+  document.getElementById('imageBox').src = "temperance.jpg";
+} else if (x == 20){
+  document.getElementById('imageBox').src = "tower.jpg";
+} else if (x == 21){
+  document.getElementById('imageBox').src = "wheeloffortune.jpg";
+} else if (x == 22){
+  document.getElementById('imageBox').src = "world.jpg";
 }
+
 </script>
 
-<img src=card></img>
 
 </body>
 </html>
